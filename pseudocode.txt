@@ -1,0 +1,50 @@
+Files:
+
+Main:
+    While(VR headset is connected){
+        read controller positions;
+        read headset position;
+        check button inputs;
+        do inverse kinematics;
+        send data to arm;
+        update headset image; // todo later
+    }
+
+Controller.py:
+    Positions{
+        Check position of controller;
+        Return positions;
+    }
+    Buttons{
+        Check if button is pressed;
+        Return buttons that are pressed;
+    }
+
+Headset.py:
+    Position{
+        Check position of headset;
+        Return position of headset;
+    }
+    Image{ // Connect to Unity for image
+        Generate image for headset;
+        Display image;
+        Return true if successful or error if not;
+    }
+
+Utilities.py:
+    Connect to headset{
+        Connect to headset;
+        Return true if successful or error if not;
+    }
+    Disonnect from headset{
+        Disconnect from headset;
+        Return true if successful or error if not;
+    }
+    Connect to arm{
+        Connect to arm;
+        Return true if successful or error if not;
+    }
+    Disonnect from arm{
+        Disconnect from arm;
+        Return true if successful or error if not;
+    }

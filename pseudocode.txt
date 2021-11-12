@@ -48,3 +48,16 @@ Utilities.py:
         Disconnect from arm;
         Return true if successful or error if not;
     }
+
+Comms.py:
+    Serial{
+        Send serial data to arm;
+    }
+    Wifi{
+        Send wifi data to arm;
+    }
+
+IK.py:
+    Inverse Kinematics{
+        Do inverse kinematics;
+    }

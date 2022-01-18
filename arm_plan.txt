@@ -1,0 +1,27 @@
+## Arm Program
+
+
+
+## Computer Program
+
+import pyserial
+import modern_robotics as mr
+
+Slist = XXX #Measure from robot
+M = XXX #Measure from robot
+
+
+
+Top-Level structure:
+
+connect to arm
+
+thetalist = [0, 0, 0, 0, 0]
+
+while arm is connected
+    
+    
+    thetalist_new = IKinSpace()
+
+
+    send 5 bytes to arm using Pyserial

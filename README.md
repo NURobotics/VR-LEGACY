@@ -1,3 +1,5 @@
+# LEGACY, DON'T USE THIS REPO FOR VR!
+
 # VR
 
 This is VR.
